@@ -14,7 +14,11 @@
         android:theme="@style/Theme.SampleGitActivity"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity3"
+          android:name=".MainActivity3"
+          android:exported="false"
+        />
+        <activity
+            android:name=".MainActivity2"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
